@@ -1,5 +1,3 @@
-using System;
-
 namespace Erp.Reports.ReportDefinitions;
 
 public class ReportDefinitionDto

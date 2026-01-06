@@ -5,7 +5,7 @@ using Erp.Reports.ReportDefinitions;
 
 namespace Erp.Reports.EntityFrameworkCore;
 
-[ConnectionStringName("Default")]
+[ConnectionStringName("SqlServer")]
 public class ErpReportsDbContext : AbpDbContext<ErpReportsDbContext>
 {
     public DbSet<ReportDefinition> ReportDefinitions { get; set; }

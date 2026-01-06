@@ -1,6 +1,4 @@
 using DevExpress.XtraReports.UI;
-using System;
-using System.Collections.Generic;
 
 namespace Erp.Reports.HttpApi.Host.PredefinedReports;
 

@@ -11,7 +11,7 @@ public class ErpReportsDbContextFactory : IDesignTimeDbContextFactory<ErpReports
         var configuration = BuildConfiguration();
 
         var builder = new DbContextOptionsBuilder<ErpReportsDbContext>()
-            .UseSqlServer(configuration.GetConnectionString("Default"));
+            .UseSqlServer(configuration.GetConnectionString("SqlServer"));
 
         return new ErpReportsDbContext(builder.Options);
     }
